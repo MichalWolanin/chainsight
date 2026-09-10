@@ -1,0 +1,9 @@
+{
+  "name": "shared-util-signals",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/shared/util-signals/src",
+  "projectType": "library",
+  "tags": ["scope:shared", "type:util"],
+  "// targets": "to see all targets run: nx show project shared-util-signals --web",
+  "targets": {}
+}
