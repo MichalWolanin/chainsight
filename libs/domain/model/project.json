@@ -1,0 +1,9 @@
+{
+  "name": "domain-model",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/domain/model/src",
+  "projectType": "library",
+  "tags": ["scope:domain", "type:util"],
+  "// targets": "to see all targets run: nx show project domain-model --web",
+  "targets": {}
+}

@@ -24,3 +24,5 @@ minimumReleaseAgeExclude:
   - '@nx/web@23.2.1'
   - '@nx/workspace@23.2.1'
   - nx@23.2.1
+  - '@nx/vite@23.2.1'
+  - '@nx/vitest@23.2.1'

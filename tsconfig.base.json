@@ -12,7 +12,6 @@
     "lib": ["es2022", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
-
     "strict": true,
     "noUncheckedIndexedAccess": true,
     "exactOptionalPropertyTypes": true,
@@ -21,8 +20,31 @@
     "noFallthroughCasesInSwitch": true,
     "noPropertyAccessFromIndexSignature": true,
     "forceConsistentCasingInFileNames": true,
-
-    "paths": {}
+    "paths": {
+      "@chainsight/projects-feature": ["./libs/projects/feature/src/index.ts"],
+      "@chainsight/projects-data-access": ["./libs/projects/data-access/src/index.ts"],
+      "@chainsight/projects-ui": ["./libs/projects/ui/src/index.ts"],
+      "@chainsight/findings-feature": ["./libs/findings/feature/src/index.ts"],
+      "@chainsight/findings-data-access": ["./libs/findings/data-access/src/index.ts"],
+      "@chainsight/findings-ui": ["./libs/findings/ui/src/index.ts"],
+      "@chainsight/policies-feature": ["./libs/policies/feature/src/index.ts"],
+      "@chainsight/policies-data-access": ["./libs/policies/data-access/src/index.ts"],
+      "@chainsight/policies-ui": ["./libs/policies/ui/src/index.ts"],
+      "@chainsight/domain-model": ["./libs/domain/model/src/index.ts"],
+      "@chainsight/domain-mapper": ["./libs/domain/mapper/src/index.ts"],
+      "@chainsight/graph-feature": ["./libs/graph/feature/src/index.ts"],
+      "@chainsight/graph-ui": ["./libs/graph/ui/src/index.ts"],
+      "@chainsight/graph-util-layout": ["./libs/graph/util-layout/src/index.ts"],
+      "@chainsight/security-data-access-auth": ["./libs/security/data-access-auth/src/index.ts"],
+      "@chainsight/security-feature-permissions": [
+        "./libs/security/feature-permissions/src/index.ts"
+      ],
+      "@chainsight/security-util-csp": ["./libs/security/util-csp/src/index.ts"],
+      "@chainsight/shared-ui": ["./libs/shared/ui/src/index.ts"],
+      "@chainsight/shared-util-types": ["./libs/shared/util-types/src/index.ts"],
+      "@chainsight/shared-util-testing": ["./libs/shared/util-testing/src/index.ts"],
+      "@chainsight/shared-util-signals": ["./libs/shared/util-signals/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

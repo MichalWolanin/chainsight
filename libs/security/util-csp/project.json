@@ -1,0 +1,9 @@
+{
+  "name": "security-util-csp",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/security/util-csp/src",
+  "projectType": "library",
+  "tags": ["scope:security", "type:util"],
+  "// targets": "to see all targets run: nx show project security-util-csp --web",
+  "targets": {}
+}

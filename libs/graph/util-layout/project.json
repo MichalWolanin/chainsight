@@ -1,0 +1,9 @@
+{
+  "name": "graph-util-layout",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/graph/util-layout/src",
+  "projectType": "library",
+  "tags": ["scope:graph", "type:util"],
+  "// targets": "to see all targets run: nx show project graph-util-layout --web",
+  "targets": {}
+}
